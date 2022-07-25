@@ -1,0 +1,9 @@
+# Integration URLs...
+rest-service:
+  crmCapabilityUrl: https://${HOSTNAME:localhost}:8000/crm-data
+
+spring:
+  security:
+    user:
+      name: user
+      password: password
